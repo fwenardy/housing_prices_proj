@@ -35,10 +35,8 @@ The dataset `HousingData.csv`, scraped by Gerry Zani from from the online housin
 1. **Prepare Input Data:** Ensure it includes features like location, area, and property details.
 2. **Run the Program:** Input data into `Recommender.ipynb` to generate a pricing range.
 
-## Future Work
-- Use geospatial analysis for enhanced location feature engineering.
-- Add more housing attributes to improve accuracy.
-- Explore ensemble learning techniques to further reduce MAE.
+## Personal Evaluation of Model
+This dataset only provided us with 7 variables (one of which is not suitable for use), so with this limitation, I think the MAE achieved was fairly pleasing to see. However, I believe there is still room to keep decreasing the MAE, and so for this I'd like to come back to this project with more regression techniques (e.g XGBoost), which I may implement depending on how it performs. 
 
 ## Citation
-Dataset scraped by Gerry Zani from [Rumah.com](https://www.kaggle.com/datasets/gerryzani/housing-price-in-south-tangerang-city-indonesia/data).
+Dataset scraped by Gerry Zani from Rumah.com. Posted on Kaggle for public use - https://www.kaggle.com/datasets/gerryzani/housing-price-in-south-tangerang-city-indonesia/data.
