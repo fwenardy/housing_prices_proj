@@ -4,7 +4,7 @@
 I built a regression model that estimates house listing prices and a program (`Recommender.ipynb`) that outputs a range of "reasonable" prices for a given house. Sellers can use this range to reassess whether their price is reasonable. Buyers and sellers can use it as a basis for negotiation purposes (lower end for buyers, higher end for sellers).
 
 ## Dataset
-The dataset `HousingData.csv`, scraped by Gerry Zani from [Rumah.com](https://www.kaggle.com/datasets/gerryzani/housing-price-in-south-tangerang-city-indonesia/data), includes house listings from South Tangerang, Indonesia. Variables include:
+The dataset `HousingData.csv`, scraped by Gerry Zani from from the online housing marketplace "Rumah.com". Link: https://www.kaggle.com/datasets/gerryzani/housing-price-in-south-tangerang-city-indonesia/data), which includes house listings from South Tangerang, Indonesia. Variables include:
 1. `url`
 2. `location`
 3. `area` (land size of the house)
