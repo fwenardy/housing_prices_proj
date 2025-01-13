@@ -3,7 +3,7 @@
 ## Overview & Purpose
 I built a regression model that estimates house listing prices and a program (`Recommender.ipynb`) that outputs a range of "reasonable" prices for a given house. Sellers can use this range to reassess whether their price is reasonable. Buyers and sellers can use it as a basis for negotiation purposes (lower end for buyers, higher end for sellers).
 
-While this type of regression project is a common theme across data science projects, I'd like to make mine useful by narrowing my project's scope to houses located in a South Tangerang, a city in Indonesia. This narrow scope, although restricting the audience, gives more value to those who do find use of it. I chose this city specifically since I own property and lived in this city before - I believe I have a reasonable sense of judgment that I believe will help me with validity-checks of the dataset's and model's numbers. 
+While this type of regression project is a common theme across data science projects, I'd like to make mine useful by narrowing my project's scope to houses located in a South Tangerang, a city in Indonesia. This narrow scope, although restricting the audience, gives more value to those who do find use of it. I chose this city specifically since I own property and lived in this city before - I believe I have a reasonable sense of judgment that will help me reason better with the dataset's and model's numbers.
 
 ## Dataset
 The dataset `HousingData.csv`, scraped by Gerry Zani from from the online housing marketplace "Rumah.com" (Cited below). This dataset includes house listings from South Tangerang, Indonesia. Variables include:
