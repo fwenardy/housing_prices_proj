@@ -25,15 +25,18 @@ If you would like to use this project, do the following:
 
 ## Process
 ### 1. Data Cleaning & Preprocessing
+`Data_Preprocessing.ipynb`, `DataCleaning.ipynb`
 - Removed duplicates and standardized formats.
 - Identified and removed extreme outliers (e.g., houses priced at less than one cent).
 
 ### 2. Feature Engineering & Selection
+`Feature_Engineering_Selection.ipynb`
 - Visualized common words in `location` and `url` using word clouds.
 - Created dummy variables for these columns via OneHotEncoding.
 - Used a correlation heatmap to filter out likely-insignificant (R² < 0.01) and highly cross-correlated dummy variables.
 
 ### 3. Model Development
+`Model_Validation_Testing.ipynb`
 - Selected a random forest model, which is suitable for this dataset since it has many binary variables (dummy variables). Since decision trees/random forests make use of if-statements, I think this regression technique would "structurally" be suitable.
 - Evaluated the dummy variables' impact - they achieved a 37% reduction in the regression model's Mean Absolute Error (MAE).
 
